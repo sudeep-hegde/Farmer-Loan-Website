@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body {
+  margin: 0;
+  font-family: "Mulish";                      
+  background: #FFFBEB;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #c0eede; */
+    color: #eee;
+  
+    justify-content: center;
+    
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #92400E;
+    height: 60px;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 8px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .topnav a:hover{
+      box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+  }
+  
+  
+  .topnav-right {
+    float: right;
+  }
+.profile,.info{
+  height: 600px;
+
+  margin-top: 16px;
+  
+}
+.profile
+{
+    max-width: 400px;
+    color: black;
+    background: linear-gradient(to right,#ffe9c3,#faa04b);
+	padding: 30px;
+  
+
+	margin: 50px;
+  margin-left:100px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	border-radius: 10px;
+	
+     
+}
+
+input{
+  color: black;
+  display: grid;
+  margin-left: 20px;
+  width: 200px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid rgb(230, 194, 194);
+  border-radius: 1px;
+}
+
+input[type=text] {
+  background-color: #b5ebd7;
+  color: rgb(17, 15, 15);
+  font-size: 20px;
+ 
+}
+
+label{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+}
+ .pinfo{
+   padding-top: 30px;
+   display:list-item;
+     
+ }
+
+
+.info{
+  max-width: 400px;
+  color: black;
+  background: linear-gradient(to right,#FCD34D,#faa04b);
+padding: 30px;
+margin-left:50px;
+margin: 50px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+border-radius: 10px;
+
+   
+}
+
+
+table {
+
+  font-family: "Mulish";
+  font-weight:bold;
+  margin-top: 30px;
+  margin-left: 200px;
+  border-collapse: collapse;
+  
+  outline:#484c7a solid 4px;
+  background: #FDE68A;
+  width: 70%;
+   
+  
+}
+
+.table td, .table th {
+  border: 1px solid #080808;
+  text-align: left;
+  height: 40px;
+  color: black;
+}
+.table th{
+  background-color:#D97706;
+  text-align: center;
+  color: rgb(3, 3, 3);
+}
+
+
+  .workingdays,.dailywages,.loanr,.loanpaid,.salary,.tamt
+  {
+      font-style: italic;
+
+
+   }
+
+   .sbutton{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 800px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #3a4149;
+    background: #5adaff;
+    line-height: 1.15;
+    font-size: 16px;
+    font-family: Mulish;
+  }        
+  
+  .sbutton:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px#374151;
+  }
+
+  .dbutton{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1200px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #3a4149;
+    background:#9e6a03;
+    line-height: 1.15;
+    font-size: 16px;
+    font-family: Mulish;
+  }        
+  
+  .dbutton:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px#374151;
+  }
+  
+  
+   .workingdays,.dailywages,.loanr,.loanpaid,.salary,.tamt{
+
+    font-size: large;
+    color: rgb(11, 12, 11);
+   }
+
+   table {
+    font-family: "Mulish";
+    font-weight:bold;
+    border-collapse: collapse;
+    outline:#484c7a solid 4px;
+    background: #d6d6e7;
+    width: 80%;
+    margin:20px;
+    margin-left: 80px;
+   }
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    }
+   th{
+    background-color:#777aaf;
+    color: white;
+}
+
+label {
+  text-align: center;
+  line-height: 150%;
+  font-size: 1.3em;
+}
+
+.profile,.info {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

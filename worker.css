@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color:#fff7f0;
+    color: #eee;
+  
+    justify-content: center;
+    
+  }
+  
+  .titlebar{
+      background-color: rgb(179, 191, 77);
+      vertical-align: top;
+      height: 10vh;
+      width: 100%;
+  }
+
+   .hbutton {
+    
+    background-color: rgb(164, 171, 102); /* Green */
+    border: none;
+    color:black;
+    padding: 8px 40px;
+     border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+   }
+
+   .lbutton {
+    background-color: rgb(247, 108, 90); /* Green */
+    border: none;
+    color:black;
+    padding: 12px 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+   }
+
+.heading{
+  text-decoration: solid;
+  color: black;
+  font-size: 18px;
+  font-family:cursive;
+}
+
+ 
+ 
+.desci{
+  width: 300px;
+}
+.money{
+  width: 150px;
+
+}
+
+.attendence{
+  width: 15px;
+ 
+
+}
+.name{
+  width: 200px;
+}
+
+.workat{
+  width: 200px;
+
+}
+.id{
+  width: 10px;
+}
+
+.vpro{
+  width: 30px;
+}
+
+
+th{
+  height: 35px;
+}
+
+tr{
+ height: 30px;
+}
+
+table {
+
+  font-family: "Mulish";
+  font-weight:bold;
+  margin-top: 30px;
+  margin-left: 200px;
+  border-collapse: collapse;
+  
+  outline:#484c7a solid 4px;
+  background: #FDE68A;
+  width: 70%;
+   
+  
+}
+
+td, th {
+  border: 1px solid #080808;
+  text-align: left;
+  height: 40px;
+  color: black;
+}
+th{
+  background-color:#D97706;
+  text-align: center;
+  color: rgb(3, 3, 3);
+}
+
+
+
+.abutton 
+{
+  display: inline-block;
+outline: none;
+cursor: pointer;
+margin-top: 50px;
+margin-left: 1000px;
+font-weight: 600;
+border-radius: 3px;
+padding: 12px 24px;
+border: 0;
+color: #3a4149;
+background:#A78BFA;
+line-height: 1.15;
+font-size: 16px;
+font-family: Mulish;
+}        
+
+.abutton:hover {
+transition: all .1s ease;
+box-shadow: 0 0 0 0 #fff, 0 0 0 3px#374151;
+}
+
+
+ 
+.sbutton{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 200px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #3a4149;
+  background: #5adaff;
+  line-height: 1.15;
+  font-size: 16px;
+  font-family: Mulish;
+}        
+
+.sbutton:hover {
+  transition: all .1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px#374151;
+}
+
+ input {
+  background-color: #FEF3C7;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: large;
+}
+ .date{
+   color: black;
+   border:darkblue solid;
+   margin-left: 500px;
+
+ }
+
+ select{
+  width:150px; margin-left:25px;cursor:pointer;border-radius:5px;
+        border: 3px solid #f7e377;background-color:#92400E;color:#f2f2f2;font-size:19px;font-family:Mulish
+ }

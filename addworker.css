@@ -1,0 +1,83 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #c0eede; */
+    color: #eee;
+  
+    justify-content: center;
+    
+    
+  }
+   .profile
+   {
+       background-size:contain;
+       width:60%;
+       
+       max-width: 600px;
+       background:#FEF3C7;
+     padding: 30px;
+      
+     margin: 10px auto;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+     border-radius: 10px;
+     border: 6px solid #00526c;
+        
+   }
+
+
+input{
+  color: black;
+  display: grid;
+  margin:center;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid rgb(230, 194, 194);
+  border-radius: 1px;
+}
+input[type=text] {
+  background-color: #b5ebd7;
+  color: rgb(17, 15, 15);
+  font-size: 20px;
+ 
+}
+input[type=number] {
+  background-color: #b5ebd7;
+  color: rgb(17, 15, 15);
+  font-size: 20px;
+ 
+}
+
+label{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+  color: #4B5563;
+}
+ 
+
+   .sbutton {
+    background-color: rgb(161, 247, 108); /* Green */
+    border: none;
+    color:black;
+    padding: 12px 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+   }
+
+   
+  
